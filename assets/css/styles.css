@@ -84,18 +84,34 @@ section {
     background-size: cover;
     background-position: center;
     height: 600px;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-cta {
+    text-align: right;
+    color: white;
+    width: 35%;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    color: #fce138;
+    font-size: 55px;
+    font-style: italic;
 }
 
 .hero-form {
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
+    width: 40%;
+    margin: 3.5%;
     color: #024e76;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
 }
 
 .hero-form p {
