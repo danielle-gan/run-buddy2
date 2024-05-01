@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
@@ -53,6 +54,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;  /*1.5% of the browser's width.*/
     text-decoration: none;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -107,15 +109,18 @@ section {
     color: #fce138;
     font-size: 55px;
     font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
-    background-color: #fce138;
+    background-color: rgba(252,225,56,.8);
     padding: 20px;
     width: 40%;
     margin: 3.5%;
     color: #024e76;
     border: solid 3px #024e76;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-form p {
@@ -135,6 +140,7 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .hero-form label {
@@ -147,6 +153,7 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 
@@ -336,6 +343,7 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -346,6 +354,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 980px) {
