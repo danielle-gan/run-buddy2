@@ -1,6 +1,6 @@
 # Run Buddy, Inc
 
-Welcome to the Run Buddy landing page repository! This README provides an overview of the project, including its features, structure, and instructions for setting up the project locally.
+Welcome to the Run Buddy landing page repository! This README provides an overview of the project, including its features, structure, and instructions for setting up the project locally. **Note**: This repository was forked from a template from UConn Coding Bootcamp.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -12,6 +12,9 @@ Welcome to the Run Buddy landing page repository! This README provides an overvi
 
 ## Project Overview
 Run Buddy is a professional landing page designed for the company "Run Buddy." The website provides information about the company's services, includes a contact form for inquiries, and features an embedded iframe for interactive content. It is built using HTML and CSS, with media queries to ensure it is mobile responsive.
+
+## Link to Deployed Website
+[Run Buddy Landing Page](https://danielle-gan.github.io/run-buddy2/)
 
 ## Features
 - **Responsive Design**: Utilizes media queries to ensure the site is mobile-friendly and looks great on all devices.
